@@ -1,0 +1,12 @@
+<svg width="317" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="32" width="319" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="29" id="svg_1" y="24.99873" x="35.46395" stroke-width="0" stroke="#000" fill="#000000">Susla Web Studio</text>
+  <path id="svg_7" d="m4.78406,15.01165l0,0c0,-6.90361 5.59648,-12.50009 12.50008,-12.50009l0,0c3.31523,0 6.49467,1.31697 8.83889,3.66119c2.34422,2.34422 3.66119,5.52367 3.66119,8.8389l0,0c0,6.90361 -5.59648,12.50009 -12.50008,12.50009l0,0c-6.9036,0 -12.50008,-5.59648 -12.50008,-12.50009zm6.25004,0l0,0c0,3.4518 2.79824,6.25005 6.25004,6.25005c3.4518,0 6.25004,-2.79824 6.25004,-6.25005c0,-3.4518 -2.79824,-6.25005 -6.25004,-6.25005l0,0c-3.4518,0 -6.25004,2.79824 -6.25004,6.25005z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+ </g>
+</svg>
