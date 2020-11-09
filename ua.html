@@ -318,22 +318,28 @@
     <section id="contact" class="site-section section-form text-center">
         <div class="container">
 
-            <h3>Контакти</h3>
+            <h3>Contact</h3>
             <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-            <form>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted)  {window.location='sendua';}"></iframe>
+            <form role="form"
+                  action="https://docs.google.com/forms/d/e/1FAIpQLScP3VDu-dqy9TLTrfP49TEvRg7FoBsdOQd70kULyJmPkohSrQ/formResponse"
+                  method="post" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="row">
                     <div class="col-sm-6">
-                        <input type="text" name="name" class="form-control mt-x-0" placeholder="Ім'я" required>
+                        <input type="text" name="entry.856185836" class="form-control mt-x-0" placeholder="Name" required>
                     </div>
                     <div class="col-sm-6">
-                        <input type="email" name="email" class="form-control" placeholder="Пошта" required>
+                        <input type="email" name="entry.111074302" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="col-sm-12">
-                        <textarea name="message" id="mesaage" class="form-control" placeholder="Повідомлення"
+                        <textarea name="entry.858908852" id="mesaage" class="form-control" placeholder="Message"
                                   required></textarea>
                     </div>
                 </div>
-                <button type="submit" value="Send" id="form-submit" class="btn btn-border">Зв'язатися зі мною</button>
+                <button href="#" class="btn btn-border" type="submit">Hire Me <span
+                        class="glyphicon glyphicon-send"></span></button>
             </form>
         </div>
     </section><!-- /.section-form -->
