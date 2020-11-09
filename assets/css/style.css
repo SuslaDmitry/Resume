@@ -253,6 +253,9 @@ html, body {
     height: 600px;
 }
 
+.padding{
+    padding-bottom:50px;
+}
 /* SITEMAIN
 ================================================== */
 .site-main {
