@@ -1,6 +1,6 @@
 $(function() {
 
-    $('.navbar-toggle').click(function() {
+    $('.navbar-toggle').click(function(event) {
         $(this).toggleClass('act');
             if($(this).hasClass('act')) {
                 $('.main-menu').addClass('act');
@@ -8,16 +8,21 @@ $(function() {
             else {
                 $('.main-menu').removeClass('act');
             }
+
     });
 
     //jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(document).on('click', '.page-scroll a', function(event) {
+    $(document).on('click', '.page-scroll a', null, function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000, 'easeInOutExpo');
+        }, 500, 'easeInOutExpo');
         event.preventDefault();
+        $('.main-menu').removeClass('act');
+        $('.navbar-toggle').removeClass('act');
+
     });
+
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
