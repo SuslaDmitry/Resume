@@ -25,6 +25,10 @@
 	.modal-header {
 		height: 400px;
 	}
+
+	.hero .visible-xxs + .btn {
+		margin-top: 10px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -131,6 +135,7 @@
 		height: 350px;
 	}
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -401,6 +406,26 @@
 	}
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 991px) {
+
+	/* Section: Services */
+	.section-services .col-md-4 {
+		padding-top: 20px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 771px) {
+
+	/* Section: Services */
+	.section-services .col-md-4 {
+		padding-top: 0px;
+	}
+
+}
+
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
 
@@ -425,6 +450,11 @@
 	================================================== */
 	.site-main {
 		margin-bottom: 180px;
+	}
+
+	/* Section: Services */
+	.section-services .col-md-4 {
+		padding-top: 0px;
 	}
 
 	/* Section: Portfolio */
