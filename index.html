@@ -45,7 +45,13 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
     <![endif]-->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+      function onSubmit(token) {
+        document.getElementById("contactForm").submit();
+        window.location='sendua';
+      }
+    </script>
 </head>
 <body>
 
@@ -339,7 +345,7 @@
                                   required></textarea>
                     </div>
                 </div>
-                <button class="btn btn-border g-recaptcha" data-sitekey="6Lcdwj8aAAAAAEQ0WWy6BobV2pG_AKaJ4EDE29o2" type="submit">Надіслати</button>
+                <button class="btn btn-border g-recaptcha" data-sitekey="6Lf44T8aAAAAAENXnDiuUZQdEf8A0pPUhQjuCz0Y" data-callback='onSubmit'>Надіслати</button>
             </form>
         </div>
     </section><!-- /.section-form -->
