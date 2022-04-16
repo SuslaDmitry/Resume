@@ -570,3 +570,5 @@ color: #fff;
     color: #fff;
     text-align: center;
 }
+
+.grecaptcha-badge {visibility: hidden;}
