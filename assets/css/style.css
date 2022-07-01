@@ -641,7 +641,7 @@ color: #fff;
 		padding: 0 15px 6px;
 	}
 	.image_sertificate {
-	width: 343  px;
+	width: 343px;
 	height: 242px;
 	}
 	.image_sertificate_Diya {
@@ -654,27 +654,11 @@ color: #fff;
 	.service-list .bgrid {
 		padding: 0 10px 6px;
 	}
-	.image_sertificate {
-	width: 343  px;
-	height: 242px;
-	}
-	.image_sertificate_Diya {
-	width: 175px;
-	height: 247px;
-	}
 }
 
 @media only screen and (max-width:400px) {
 	.service-list .bgrid {
 		padding: 0 0 6px;
-	}
-	.image_sertificate {
-	width: 343  px;
-	height: 242px;
-	}
-	.image_sertificate_Diya {
-	width: 175px;
-	height: 247px;
 	}
 }
 
@@ -688,7 +672,7 @@ color: #fff;
 @media only screen and (min-width:1980px) {
 
 	.image_sertificate {
-	width: 429  px;
+	width: 429px;
 	height: 303px;
 	}
 	.image_sertificate_Diya {
@@ -701,7 +685,7 @@ color: #fff;
 @media only screen and (min-width:1750px) and (max-width:1980px) {
 
 	.image_sertificate {
-	width: 343  px;
+	width: 343px;
 	height: 242px;
 	}
 	.image_sertificate_Diya {
@@ -714,7 +698,7 @@ color: #fff;
 @media only screen and (min-width:1200px) and (max-width:1750px) {
 
 	.image_sertificate {
-	width: 292  px;
+	width: 292px;
 	height: 206px;
 	}
 	.image_sertificate_Diya {
@@ -727,7 +711,7 @@ color: #fff;
 @media only screen and (min-width:930px) and (max-width:1200px) {
 
 	.image_sertificate {
-	width: 429  px;
+	width: 429px;
 	height: 303px;
 	}
 	.image_sertificate_Diya {
@@ -740,7 +724,7 @@ color: #fff;
 @media only screen and (min-width:768px) and (max-width:930px) {
 
 	.image_sertificate {
-	width: 343  px;
+	width: 343px;
 	height: 242px;
 	}
 	.image_sertificate_Diya {
@@ -753,25 +737,25 @@ color: #fff;
 @media only screen and (min-width:500px) and (max-width:768px) {
 
 	.image_sertificate {
-	width: 429  px;
+	width: 429px;
 	height: 303px;
 	}
 	.image_sertificate_Diya {
-	width: 219px;
-	height: 309px;
+	width: 429px;
+	height: 605px;
 	}
 
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
 
 	.image_sertificate {
-	width: 292  px;
-	height: 206px;
+	width: 100%;
+	height: 100%;
 	}
 	.image_sertificate_Diya {
-	width: 149px;
-	height: 234px;
+	width: 100%;
+	height: 100%;
 	}
 
 }
