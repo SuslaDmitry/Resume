@@ -15,13 +15,13 @@ lang : {
 	focusTitle : 'Click to bring to front',
 	fullExpandTitle : 'Expand to actual size (f)',
 	creditsText : '',
-	creditsTitle : 'Go to the Highslide JS homepage',
-	restoreTitle : 'Click to close image, click and drag to move. Use arrow keys for next and previous.'
+	creditsTitle : '',
+	restoreTitle : ''
 },
 // See http://highslide.com/ref for examples of settings  
 graphicsDir : 'highslide/graphics/',
-expandCursor : 'zoomin.cur', // null disables
-restoreCursor : 'zoomout.cur', // null disables
+expandCursor : '0', // null disables
+restoreCursor : '0', // null disables
 expandDuration : 250, // milliseconds
 restoreDuration : 250,
 marginLeft : 15,
@@ -37,7 +37,7 @@ outlineStartOffset : 3, // ends at 10
 padToMinWidth : false, // pad the popup width to make room for wide caption
 fullExpandPosition : 'bottom right',
 fullExpandOpacity : 1,
-showCredits : true, // you can set this to false if you want
+showCredits : false, // you can set this to false if you want
 creditsHref : 'http://highslide.com/',
 creditsTarget : '_self',
 enableKeyListener : true,
